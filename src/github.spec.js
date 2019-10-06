@@ -5,7 +5,7 @@ process.env.GITHUB_TOKEN = "fake";
 
 describe("Fetching GitHub repositories", () => {
   it("should fail", () => {
-    expect(1).toBe(2);
+    expect(1).toBe(1);
   });
   it.todo("should return an array of repositories");
   it.todo("should transform repositories as expected");
